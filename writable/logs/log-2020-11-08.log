@@ -1,0 +1,27 @@
+CRITICAL - 2020-11-08 03:34:56 --> Undefined variable: headerTitle
+#0 /var/www/html/codeigniter2/app/Views/templates/header.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 25, Array)
+#1 /var/www/html/codeigniter2/system/View/View.php(246): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter2/system/Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 /var/www/html/codeigniter2/app/Controllers/Form.php(15): view('templates/heade...')
+#4 /var/www/html/codeigniter2/system/CodeIgniter.php(914): App\Controllers\Form->index()
+#5 /var/www/html/codeigniter2/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#6 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-08 03:41:43 --> Undefined variable: title
+#0 /var/www/html/codeigniter2/app/Views/templates/header.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 25, Array)
+#1 /var/www/html/codeigniter2/system/View/View.php(246): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter2/system/Common.php(1087): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 /var/www/html/codeigniter2/app/Controllers/Form.php(15): view('templates/heade...')
+#4 /var/www/html/codeigniter2/system/CodeIgniter.php(914): App\Controllers\Form->index()
+#5 /var/www/html/codeigniter2/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#6 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-08 03:43:50 --> Argument 2 passed to view() must be of the type array, string given, called in /var/www/html/codeigniter2/app/Controllers/Form.php on line 15
+#0 /var/www/html/codeigniter2/app/Controllers/Form.php(15): view('templates/heade...', 'Formulaire de r...')
+#1 /var/www/html/codeigniter2/system/CodeIgniter.php(914): App\Controllers\Form->index()
+#2 /var/www/html/codeigniter2/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#3 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

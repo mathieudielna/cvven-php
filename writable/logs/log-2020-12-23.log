@@ -1,0 +1,276 @@
+CRITICAL - 2020-12-23 05:35:45 --> Undefined variable: infoUtilisateur
+#0 /var/www/html/CVVEN/app/Views/form/modifyuser.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/View/View.php(246): include('/var/www/html/C...')
+#2 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(27): view()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-23 05:37:53 --> Undefined variable: infoUtilisateur
+#0 /var/www/html/CVVEN/app/Views/form/modifyuser.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/View/View.php(246): include('/var/www/html/C...')
+#2 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(27): view()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-23 05:39:54 --> Undefined variable: SiteReservationModel
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(34): App\Controllers\ModifyUser->modifyUser()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-23 05:40:14 --> Undefined variable: SiteReservationModel
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(34): App\Controllers\ModifyUser->modifyUser()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-23 05:40:54 --> Undefined variable: SiteReservationModel
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(34): App\Controllers\ModifyUser->modifyUser()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-23 05:44:48 --> Undefined variable: SiteReservationModel
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(34): App\Controllers\ModifyUser->modifyUser()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-23 05:46:39 --> Undefined variable: SiteReservationModel
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(34): App\Controllers\ModifyUser->modifyUser()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-23 05:46:42 --> Undefined variable: SiteReservationModel
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(42): App\Controllers\ModifyUser->verifyPassword()
+#2 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(34): App\Controllers\ModifyUser->modifyUser()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-23 05:46:45 --> Undefined variable: SiteReservationModel
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(34): App\Controllers\ModifyUser->modifyUser()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-23 05:46:58 --> Undefined variable: SiteReservationModel
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(34): App\Controllers\ModifyUser->modifyUser()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-23 05:47:04 --> Undefined variable: SiteReservationModel
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(34): App\Controllers\ModifyUser->modifyUser()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-23 05:47:10 --> Undefined variable: SiteReservationModel
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(34): App\Controllers\ModifyUser->modifyUser()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-23 05:48:44 --> Undefined variable: SiteReservationModel
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(34): App\Controllers\ModifyUser->modifyUser()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-23 05:49:43 --> Undefined variable: SiteReservationModel
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(34): App\Controllers\ModifyUser->modifyUser()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-23 05:49:51 --> Undefined variable: SiteReservationModel
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(34): App\Controllers\ModifyUser->modifyUser()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-23 05:50:05 --> Undefined variable: SiteReservationModel
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(34): App\Controllers\ModifyUser->modifyUser()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-23 10:31:45 --> Call to undefined method App\Controllers\ModifyUser::verifFieldRempli()
+#0 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-23 10:32:31 --> Undefined index: password
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(38): App\Controllers\ModifyUser->verifyFields()
+#2 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(30): App\Controllers\ModifyUser->updateUser()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-23 10:34:21 --> Call to undefined method App\Controllers\ModifyUser::getPost()
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(30): App\Controllers\ModifyUser->updateUser()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-23 10:40:20 --> Call to undefined method App\Controllers\ModifyUser::getPost()
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(30): App\Controllers\ModifyUser->updateUser()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-23 10:47:45 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...ser SET nom='franck', prenom='gary',mdp='testOK', WHERE id_u...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/Database/Postgre/Connection.php(196): pg_query()
+#2 /var/www/html/CVVEN/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/CVVEN/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/CVVEN/app/Models/SiteReservationModel.php(344): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(39): App\Models\SiteReservationModel->updateInfoUser()
+#6 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(30): App\Controllers\ModifyUser->updateUser()
+#7 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#8 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-23 11:04:59 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...ser SET nom='franck', prenom='gary',mdp='testOK', WHERE id_u...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/Database/Postgre/Connection.php(196): pg_query()
+#2 /var/www/html/CVVEN/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/CVVEN/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/CVVEN/app/Models/SiteReservationModel.php(344): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(39): App\Models\SiteReservationModel->updateInfoUser()
+#6 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(30): App\Controllers\ModifyUser->updateUser()
+#7 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#8 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-23 11:11:56 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ....user SET nom='test', prenom='test', mdp='tesok', WHERE id_u...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/Database/Postgre/Connection.php(196): pg_query()
+#2 /var/www/html/CVVEN/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/CVVEN/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/CVVEN/app/Models/SiteReservationModel.php(343): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(39): App\Models\SiteReservationModel->updateInfoUser()
+#6 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(30): App\Controllers\ModifyUser->updateUser()
+#7 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#8 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-23 11:30:01 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...er SET nom='franck', prenom='gary', mdp='testOK', WHERE id_u...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/Database/Postgre/Connection.php(196): pg_query()
+#2 /var/www/html/CVVEN/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/CVVEN/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/CVVEN/app/Models/SiteReservationModel.php(343): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(39): App\Models\SiteReservationModel->updateInfoUser()
+#6 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(30): App\Controllers\ModifyUser->updateUser()
+#7 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#8 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-23 11:31:48 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...c.user SET nom='test', prenom='test', mdp='test', WHERE id_u...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/Database/Postgre/Connection.php(196): pg_query()
+#2 /var/www/html/CVVEN/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/CVVEN/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/CVVEN/app/Models/SiteReservationModel.php(343): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(39): App\Models\SiteReservationModel->updateInfoUser()
+#6 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(30): App\Controllers\ModifyUser->updateUser()
+#7 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#8 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-23 11:32:05 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...c.user SET nom='test', prenom='test', mdp='test', WHERE id_u...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/Database/Postgre/Connection.php(196): pg_query()
+#2 /var/www/html/CVVEN/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/CVVEN/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/CVVEN/app/Models/SiteReservationModel.php(343): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(39): App\Models\SiteReservationModel->updateInfoUser()
+#6 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(30): App\Controllers\ModifyUser->updateUser()
+#7 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#8 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-23 11:32:10 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;WHERE&quot;
+LINE 1: ...c.user SET nom='test', prenom='test', mdp='test', WHERE id_u...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/Database/Postgre/Connection.php(196): pg_query()
+#2 /var/www/html/CVVEN/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/CVVEN/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/CVVEN/app/Models/SiteReservationModel.php(343): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(39): App\Models\SiteReservationModel->updateInfoUser()
+#6 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(30): App\Controllers\ModifyUser->updateUser()
+#7 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#8 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-23 11:35:09 --> Undefined index: password
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(38): App\Controllers\ModifyUser->verifyFields()
+#2 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(30): App\Controllers\ModifyUser->updateUser()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

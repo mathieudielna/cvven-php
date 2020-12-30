@@ -1,0 +1,8 @@
+CRITICAL - 2020-12-08 16:51:32 --> syntax error, unexpected 'text' (T_STRING), expecting ';' or ','
+#0 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#1 /var/www/html/CVVEN/app/Controllers/PageUser.php(42): view()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\PageUser->index()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,88 @@
+CRITICAL - 2020-12-02 01:36:50 --> Undefined variable: Lesreservations
+#0 /var/www/html/CVVEN/app/Views/form/pageadmin.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/View/View.php(246): include('/var/www/html/C...')
+#2 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /var/www/html/CVVEN/app/Controllers/PageAdmin.php(34): view()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\PageAdmin->index()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-02 03:43:25 --> Undefined index: datefin
+#0 /var/www/html/CVVEN/app/Views/form/pageuser.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/View/View.php(246): include('/var/www/html/C...')
+#2 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /var/www/html/CVVEN/app/Controllers/PageUser.php(34): view()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\PageUser->index()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-02 03:43:45 --> Undefined index: datefin
+#0 /var/www/html/CVVEN/app/Views/form/pageuser.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/View/View.php(246): include('/var/www/html/C...')
+#2 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /var/www/html/CVVEN/app/Controllers/PageUser.php(34): view()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\PageUser->index()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-02 03:43:57 --> Undefined index: menage
+#0 /var/www/html/CVVEN/app/Views/form/pageuser.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/View/View.php(246): include('/var/www/html/C...')
+#2 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /var/www/html/CVVEN/app/Controllers/PageUser.php(34): view()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\PageUser->index()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-02 04:10:21 --> Undefined index: menage
+#0 /var/www/html/CVVEN/app/Views/form/pageuser.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/View/View.php(246): include('/var/www/html/C...')
+#2 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /var/www/html/CVVEN/app/Controllers/PageUser.php(34): view()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\PageUser->index()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-02 04:25:33 --> Undefined index: datefin
+#0 /var/www/html/CVVEN/app/Views/form/pageuser.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/View/View.php(246): include('/var/www/html/C...')
+#2 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /var/www/html/CVVEN/app/Controllers/PageUser.php(34): view()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\PageUser->index()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-02 04:26:11 --> Undefined index: menage
+#0 /var/www/html/CVVEN/app/Views/form/pageuser.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/View/View.php(246): include('/var/www/html/C...')
+#2 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /var/www/html/CVVEN/app/Controllers/PageUser.php(34): view()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\PageUser->index()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-02 04:36:50 --> You must set the database table to be used with your query.
+#0 /var/www/html/CVVEN/system/Model.php(1206): CodeIgniter\Database\BaseConnection->table()
+#1 /var/www/html/CVVEN/system/Model.php(1714): CodeIgniter\Model->builder()
+#2 /var/www/html/CVVEN/app/Controllers/PageAdmin.php(34): CodeIgniter\Model->__call()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\PageAdmin->index()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-02 04:38:42 --> You must set the database table to be used with your query.
+#0 /var/www/html/CVVEN/system/Model.php(1206): CodeIgniter\Database\BaseConnection->table()
+#1 /var/www/html/CVVEN/system/Model.php(1714): CodeIgniter\Model->builder()
+#2 /var/www/html/CVVEN/app/Controllers/PageAdmin.php(34): CodeIgniter\Model->__call()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\PageAdmin->index()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

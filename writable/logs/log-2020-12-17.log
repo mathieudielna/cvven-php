@@ -1,0 +1,106 @@
+CRITICAL - 2020-12-17 01:47:03 --> Call to a member function get() on null
+#0 /var/www/html/CVVEN/app/Controllers/GestionUser.php(22): App\Models\Session::getSessionData()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\GestionUser->index()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-17 03:01:39 --> Call to a member function get() on null
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(20): App\Models\Session::getSessionData()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-17 03:02:02 --> Call to a member function get() on null
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(20): App\Models\Session::getSessionData()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-17 03:02:03 --> Call to a member function get() on null
+#0 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(20): App\Models\Session::getSessionData()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-17 03:03:03 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 1: ...ELECT nom,prenom,mdp FROM public.user WHERE id_user=:id_user
+                                                               ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/Database/Postgre/Connection.php(196): pg_query()
+#2 /var/www/html/CVVEN/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/CVVEN/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/CVVEN/app/Models/SiteReservationModel.php(204): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(25): App\Models\SiteReservationModel->getInfoUser()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#7 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-17 03:13:58 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 1: ...ELECT nom,prenom,mdp FROM public.user WHERE id_user=:id_user
+                                                               ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/Database/Postgre/Connection.php(196): pg_query()
+#2 /var/www/html/CVVEN/system/Database/BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/CVVEN/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/CVVEN/app/Models/SiteReservationModel.php(204): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(25): App\Models\SiteReservationModel->getInfoUser()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#7 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-17 03:14:33 --> Undefined variable: infoUtilisateur
+#0 /var/www/html/CVVEN/app/Views/form/modifyuser.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/View/View.php(246): include('/var/www/html/C...')
+#2 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(25): view()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-17 03:15:40 --> Undefined index: nom
+#0 /var/www/html/CVVEN/app/Views/form/modifyuser.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/View/View.php(246): include('/var/www/html/C...')
+#2 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(25): view()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-17 03:15:41 --> Undefined index: nom
+#0 /var/www/html/CVVEN/app/Views/form/modifyuser.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/View/View.php(246): include('/var/www/html/C...')
+#2 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(25): view()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-17 03:15:42 --> Undefined index: nom
+#0 /var/www/html/CVVEN/app/Views/form/modifyuser.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/View/View.php(246): include('/var/www/html/C...')
+#2 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(25): view()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-17 03:15:42 --> Undefined index: nom
+#0 /var/www/html/CVVEN/app/Views/form/modifyuser.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/View/View.php(246): include('/var/www/html/C...')
+#2 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /var/www/html/CVVEN/app/Controllers/ModifyUser.php(25): view()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\ModifyUser->index()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

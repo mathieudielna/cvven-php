@@ -1,0 +1,188 @@
+CRITICAL - 2020-12-16 02:24:21 --> Call to undefined function form_button()
+#0 /var/www/html/CVVEN/system/View/View.php(246): include()
+#1 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /var/www/html/CVVEN/app/Controllers/Home.php(25): view()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-16 02:24:35 --> Call to undefined function form_button()
+#0 /var/www/html/CVVEN/system/View/View.php(246): include()
+#1 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /var/www/html/CVVEN/app/Controllers/Home.php(25): view()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-16 02:26:08 --> Call to undefined function form_button()
+#0 /var/www/html/CVVEN/system/View/View.php(246): include()
+#1 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /var/www/html/CVVEN/app/Controllers/Home.php(25): view()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-16 02:26:58 --> Call to undefined function form_button()
+#0 /var/www/html/CVVEN/system/View/View.php(246): include()
+#1 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /var/www/html/CVVEN/app/Controllers/Home.php(25): view()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-16 02:27:21 --> Call to undefined function form_button()
+#0 /var/www/html/CVVEN/system/View/View.php(246): include()
+#1 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /var/www/html/CVVEN/app/Controllers/Home.php(25): view()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-16 02:29:04 --> Call to undefined function form_button()
+#0 /var/www/html/CVVEN/system/View/View.php(246): include()
+#1 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /var/www/html/CVVEN/app/Controllers/Home.php(25): view()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-16 02:40:36 --> Call to undefined function form_button()
+#0 /var/www/html/CVVEN/system/View/View.php(246): include()
+#1 /var/www/html/CVVEN/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /var/www/html/CVVEN/app/Controllers/Home.php(25): view()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-16 15:05:50 --> pg_pconnect(): Unable to connect to PostgreSQL server: FATAL:  password authentication failed for user &quot;remi&quot;
+FATAL:  password authentication failed for user &quot;remi&quot;
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/Database/Postgre/Connection.php(98): pg_pconnect()
+#2 /var/www/html/CVVEN/app/Models/SiteReservationModel.php(22): CodeIgniter\Database\Postgre\Connection->connect()
+#3 /var/www/html/CVVEN/app/Controllers/Connexion.php(48): App\Models\SiteReservationModel->__construct()
+#4 /var/www/html/CVVEN/app/Controllers/Connexion.php(33): App\Controllers\Connexion->verifyLoginPassword()
+#5 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\Connexion->index()
+#6 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-12-16 18:02:02 --> Call to undefined method App\Controllers\AddUserAdmin::initController()
+#0 /var/www/html/CVVEN/system/CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-12-16 18:02:26 --> Call to undefined method App\Controllers\AddUserAdmin::initController()
+#0 /var/www/html/CVVEN/system/CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-12-16 18:02:31 --> Call to undefined method App\Controllers\AddUserAdmin::initController()
+#0 /var/www/html/CVVEN/system/CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-12-16 18:02:48 --> Call to undefined method App\Controllers\AddUserAdmin::initController()
+#0 /var/www/html/CVVEN/system/CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-12-16 18:03:21 --> Call to undefined method App\Controllers\AddUserAdmin::initController()
+#0 /var/www/html/CVVEN/system/CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-12-16 18:03:25 --> Call to undefined method App\Controllers\AddUserAdmin::initController()
+#0 /var/www/html/CVVEN/system/CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-12-16 18:03:25 --> Call to undefined method App\Controllers\AddUserAdmin::initController()
+#0 /var/www/html/CVVEN/system/CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-12-16 18:07:49 --> Class 'App\Controllers\Controllers' not found
+#0 /var/www/html/CVVEN/system/Router/Router.php(575): include_once()
+#1 /var/www/html/CVVEN/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-16 18:09:06 --> Class 'App\Controllers\Controllers' not found
+#0 /var/www/html/CVVEN/system/Router/Router.php(575): include_once()
+#1 /var/www/html/CVVEN/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-16 18:09:34 --> Class 'App\Controllers\Controllers' not found
+#0 /var/www/html/CVVEN/system/Router/Router.php(575): include_once()
+#1 /var/www/html/CVVEN/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-16 18:09:59 --> Class 'App\Controllers\Controller' not found
+#0 /var/www/html/CVVEN/system/Router/Router.php(575): include_once()
+#1 /var/www/html/CVVEN/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-16 18:10:26 --> Class 'App\Controllers\Controller' not found
+#0 /var/www/html/CVVEN/system/Router/Router.php(575): include_once()
+#1 /var/www/html/CVVEN/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-16 18:11:01 --> Class 'App\Controllers\Controller' not found
+#0 /var/www/html/CVVEN/system/Router/Router.php(575): include_once()
+#1 /var/www/html/CVVEN/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-16 18:15:08 --> Class 'App\Controllers\Controller' not found
+#0 /var/www/html/CVVEN/system/Router/Router.php(575): include_once()
+#1 /var/www/html/CVVEN/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-16 18:16:39 --> syntax error, unexpected 'use' (T_USE)
+#0 /var/www/html/CVVEN/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-16 18:16:46 --> Class 'App\Controllers\Controller' not found
+#0 /var/www/html/CVVEN/system/Router/Router.php(575): include_once()
+#1 /var/www/html/CVVEN/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-16 18:17:43 --> Undefined variable: SiteReservationModel
+#0 /var/www/html/CVVEN/app/Controllers/AddUserAdmin.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\AddUserAdmin->index()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

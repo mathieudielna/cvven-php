@@ -1,0 +1,107 @@
+CRITICAL - 2020-11-04 04:45:36 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 /var/www/html/codeigniter2/app/Views/form/book.php(9): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/c...', 9, Array)
+#1 /var/www/html/codeigniter2/system/View/View.php(246): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter2/system/Common.php(1087): CodeIgniter\View\View->render('form/book', Array, true)
+#3 /var/www/html/codeigniter2/app/Controllers/Form.php(14): view('form/book', Array)
+#4 /var/www/html/codeigniter2/system/CodeIgniter.php(914): App\Controllers\Form->index()
+#5 /var/www/html/codeigniter2/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#6 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-04 04:45:40 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 /var/www/html/codeigniter2/app/Views/form/book.php(9): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/c...', 9, Array)
+#1 /var/www/html/codeigniter2/system/View/View.php(246): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter2/system/Common.php(1087): CodeIgniter\View\View->render('form/book', Array, true)
+#3 /var/www/html/codeigniter2/app/Controllers/Form.php(14): view('form/book', Array)
+#4 /var/www/html/codeigniter2/system/CodeIgniter.php(914): App\Controllers\Form->index()
+#5 /var/www/html/codeigniter2/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#6 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-04 04:46:24 --> Call to a member function setRules() on null
+#0 /var/www/html/codeigniter2/system/CodeIgniter.php(914): App\Controllers\Form->index()
+#1 /var/www/html/codeigniter2/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#2 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-04 04:54:22 --> Call to undefined function App\Controllers\setRules()
+#0 /var/www/html/codeigniter2/system/CodeIgniter.php(914): App\Controllers\Form->index()
+#1 /var/www/html/codeigniter2/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#2 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-04 07:31:19 --> Call to a member function listErrors() on null
+#0 /var/www/html/codeigniter2/system/View/View.php(246): include()
+#1 /var/www/html/codeigniter2/system/Common.php(1087): CodeIgniter\View\View->render('form/book', Array, true)
+#2 /var/www/html/codeigniter2/app/Controllers/Form.php(18): view('form/book', Array)
+#3 /var/www/html/codeigniter2/system/CodeIgniter.php(914): App\Controllers\Form->index()
+#4 /var/www/html/codeigniter2/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#5 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-04 07:31:27 --> Call to a member function listErrors() on null
+#0 /var/www/html/codeigniter2/system/View/View.php(246): include()
+#1 /var/www/html/codeigniter2/system/Common.php(1087): CodeIgniter\View\View->render('form/book', Array, true)
+#2 /var/www/html/codeigniter2/app/Controllers/Form.php(18): view('form/book', Array)
+#3 /var/www/html/codeigniter2/system/CodeIgniter.php(914): App\Controllers\Form->index()
+#4 /var/www/html/codeigniter2/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#5 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-04 08:07:43 --> Undefined property: App\Controllers\Form::$load
+#0 /var/www/html/codeigniter2/app/Controllers/Form.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/c...', 9, Array)
+#1 /var/www/html/codeigniter2/system/CodeIgniter.php(914): App\Controllers\Form->index()
+#2 /var/www/html/codeigniter2/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#3 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-04 08:08:49 --> Class 'CodeIgniter\CI_Controller' not found
+#0 /var/www/html/codeigniter2/system/Router/Router.php(575): include_once()
+#1 /var/www/html/codeigniter2/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('form')
+#2 /var/www/html/codeigniter2/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle('form')
+#3 /var/www/html/codeigniter2/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-04 08:09:38 --> Class 'CI_Controller' not found
+#0 /var/www/html/codeigniter2/system/Router/Router.php(575): include_once()
+#1 /var/www/html/codeigniter2/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('form')
+#2 /var/www/html/codeigniter2/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle('form')
+#3 /var/www/html/codeigniter2/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-04 08:11:15 --> Class 'App\Controllers' not found
+#0 /var/www/html/codeigniter2/system/Router/Router.php(575): include_once()
+#1 /var/www/html/codeigniter2/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('form')
+#2 /var/www/html/codeigniter2/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle('form')
+#3 /var/www/html/codeigniter2/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-04 08:12:14 --> Call to undefined function App\Controllers\library()
+#0 /var/www/html/codeigniter2/system/CodeIgniter.php(914): App\Controllers\Form->index()
+#1 /var/www/html/codeigniter2/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#2 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-04 08:13:28 --> Class 'App\Controllers\CI_Controller' not found
+#0 /var/www/html/codeigniter2/system/Router/Router.php(575): include_once()
+#1 /var/www/html/codeigniter2/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('form')
+#2 /var/www/html/codeigniter2/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle('form')
+#3 /var/www/html/codeigniter2/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-04 08:21:05 --> Call to a member function setRules() on null
+#0 /var/www/html/codeigniter2/system/CodeIgniter.php(914): App\Controllers\Form->index()
+#1 /var/www/html/codeigniter2/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#2 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-04 08:26:03 --> Call to a member function setRules() on null
+#0 /var/www/html/codeigniter2/system/CodeIgniter.php(914): App\Controllers\Form->index()
+#1 /var/www/html/codeigniter2/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#2 /var/www/html/codeigniter2/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter2/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,88 @@
+
+  /*Formulaires*/
+ 
+  /*Creation de compte*/
+.register-form {
+    width: 700px;
+    margin: 100px auto;
+    font-size: 15px;
+}
+.register-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+}
+.register-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*Login*/
+.login-form {
+    width: 340px;
+    margin: 70px auto;
+    font-size: 15px;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+}
+
+/*Modification de mot de passe*/
+.changeMDP-form {
+    width: 500px;
+    margin: 100px auto;
+  	font-size: 15px;
+}
+.changeMDP-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+}
+.changeMPD-form h2 {
+    margin: 0 0 15px;
+}
+
+/*reservation*/
+.Sejour-form {
+    width: 600px;
+    margin: 100px auto;
+    font-size: 15px;
+}
+.Sejour-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+}
+.Sejour-form h2 {
+    margin: 0 0 15px;
+}
+
+/*Page Acceuil Admin*/
+.grid-home{
+    margin: 30px auto;
+}
+
+.grid-home h1{
+    margin-bottom: 50px;
+}
+
+.grid-home .row{
+    margin-bottom: 35px;
+}
+
+.grid-home .row a{
+    font-size: 4rem;
+}

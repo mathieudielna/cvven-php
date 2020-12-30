@@ -1,0 +1,7 @@
+CRITICAL - 2020-12-09 01:53:16 --> Undefined property: App\Controllers\CreateUser::$load
+#0 /var/www/html/CVVEN/app/Controllers/CreateUser.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/CVVEN/system/CodeIgniter.php(914): App\Controllers\CreateUser->index()
+#2 /var/www/html/CVVEN/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/CVVEN/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/CVVEN/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
