@@ -10,7 +10,7 @@
         "ext-intl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "kint-php/kint": "^5.0",
+        "kint-php/kint": "^6.0",
         "psr/log": "^3.0",
         "laminas/laminas-escaper": "^2.6"
     },
